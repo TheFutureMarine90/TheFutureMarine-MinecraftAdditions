@@ -24,7 +24,7 @@ public class BlockDarkOakBookshelf extends Block implements IHasModel
         super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.MISC);
+        setCreativeTab(Main.tabAdditions);
         setHardness(1.0F);
 
         BlockInit.BLOCKS.add(this);

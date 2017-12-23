@@ -1,5 +1,6 @@
 package com.thefuturemarine.minecraftadditions;
 
+import com.thefuturemarine.minecraftadditions.init.AdditionsTab;
 import com.thefuturemarine.minecraftadditions.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -15,6 +16,8 @@ public class Main
 
     @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.SERVER)
     public static CommonProxy proxy;
+
+    public static AdditionsTab tabAdditions = new AdditionsTab(12, "tabAdditions");
 
     @Mod.EventHandler
     public static void preInit(FMLPreInitializationEvent event)

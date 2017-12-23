@@ -1,6 +1,7 @@
 package com.thefuturemarine.minecraftadditions.blocks;
 
 import com.thefuturemarine.minecraftadditions.Main;
+import com.thefuturemarine.minecraftadditions.init.AdditionsTab;
 import com.thefuturemarine.minecraftadditions.init.BlockInit;
 import com.thefuturemarine.minecraftadditions.init.ItemInit;
 import com.thefuturemarine.minecraftadditions.util.IHasModel;
@@ -24,7 +25,7 @@ public class BlockAcaciaBookshelf extends Block implements IHasModel
         super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.MISC);
+        setCreativeTab(Main.tabAdditions);
         setHardness(1.0F);
 
         BlockInit.BLOCKS.add(this);
