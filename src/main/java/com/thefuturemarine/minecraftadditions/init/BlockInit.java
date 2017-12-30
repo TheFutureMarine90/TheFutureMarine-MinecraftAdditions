@@ -16,4 +16,5 @@ public class BlockInit
     public static final Block DarkOakBookshelf = new BlockDarkOakBookshelf("darkoak_bookshelf", Material.WOOD);
     public static final Block JungleBookshelf = new BlockJungleBookshelf("jungle_bookshelf", Material.WOOD);
     public static final Block SpruceBookshelf = new BlockSpruceBookshelf("spruce_bookshelf", Material.WOOD);
+    public static final Block Lamp = new BlockLamp("lamp", Material.GLASS);
 }
